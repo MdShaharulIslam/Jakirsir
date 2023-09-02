@@ -1,0 +1,253 @@
+.logo-part {
+    width: 40%;
+}
+
+.top-part {
+    background-color: #F1FFF0;
+}
+
+.manu-bar {
+    margin-right: 40px;
+    padding: 0 30px;
+}
+
+.main-img {
+    width: 80%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.img-margin {
+    padding: 50px 40px;
+}
+
+.scend-part {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card {
+    border: none;
+    background-color: #f3e9e9;
+}
+
+.card2 {
+    width: 100%;
+    background-color: #ff9b00;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 10px rgb(51, 204, 20);
+    background-color: #a1df9f;
+}
+
+.card-title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.box {
+    box-shadow: 10px 10px 10px gray;
+    text-align: center;
+}
+
+.box :active {
+    box-shadow: 10px 10px 10px gray;
+    text-align: center;
+}
+
+.medel-img {
+    width: 40%;
+}
+
+.man {
+    width: 50%;
+    margin-left: 70px;
+}
+
+.contact-clean {
+    background: #f1f7fc;
+    padding: 80px 0;
+}
+
+@media (max-width:767px) {
+    .contact-clean {
+        padding: 20px 0;
+    }
+}
+
+.contact-clean form {
+    max-width: 480px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 4px;
+    color: #505e6c;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width:767px) {
+    .contact-clean form {
+        padding: 30px;
+    }
+}
+
+.contact-clean h2 {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 36px;
+    color: inherit;
+}
+
+.contact-clean .form-group:last-child {
+    margin-bottom: 5px;
+}
+
+.contact-clean form .form-control {
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+    outline: none;
+    color: inherit;
+    padding-left: 12px;
+    height: 42px;
+}
+
+.contact-clean form .form-control:focus {
+    border: 1px solid #b2b2b2;
+}
+
+.contact-clean form textarea.form-control {
+    min-height: 100px;
+    max-height: 260px;
+    padding-top: 10px;
+    resize: vertical;
+}
+
+.contact-clean form .btn {
+    padding: 16px 32px;
+    border: none;
+    background: none;
+    box-shadow: none;
+    text-shadow: none;
+    opacity: 0.9;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    line-height: 1;
+    outline: none !important;
+}
+
+.contact-clean form .btn:hover {
+    opacity: 1;
+}
+
+.contact-clean form .btn:active {
+    transform: translateY(1px);
+}
+
+.contact-clean form .btn-primary {
+    background-color: #055ada !important;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.footer-center p {
+    text-align: center;
+    margin-top: 50px;
+}
+
+body {
+    background-color: rgb(231, 233, 210);
+}
+
+.contact {
+    padding: 4%;
+    height: 400px;
+}
+
+.col-md-3 {
+    background: #ff9b00;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.contact-info {
+    margin-top: 10%;
+}
+
+.contact-info img {
+    margin-bottom: 15%;
+}
+
+.contact-info h2 {
+    margin-bottom: 10%;
+}
+
+.col-md-9 {
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.contact-form label {
+    font-weight: 600;
+}
+
+.contact-form button {
+    background: #25274d;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+
+.contact-form button:focus {
+    box-shadow: none;
+}
+
+.iconarea {
+    position: fixed;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 30px rgb(0, 0, 0, 0.2);
+    padding: 5px 0px;
+    z-index: 1;
+}
+
+.iconarea a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.iconarea a i {
+    color: rgb(39, 39, 39, 0.80);
+}
+
+.iconarea a:hover .fa-facebook-f {
+    color: #3b5998;
+}
+
+.iconarea a:hover .fa-twitter {
+    color: #00acee;
+}
+
+.iconarea a:hover .fa-instagram {
+    color: #3f729b;
+}
+
+.iconarea a:hover .fa-youtube {
+    color: #ff0000;
+}
